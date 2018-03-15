@@ -1,4 +1,4 @@
-# 简介
+# 项目简介
 
 一款基于JavaEE搭建的小说平台
 
@@ -28,7 +28,7 @@ Tomcat版本：Tomcat8.x
 
 ## 2.开始项目
 
-1.在你的Mysql中，创建一个数据库名称为 wy 的数据库，并导入我提供的 .sql 文件
+1.在你的Mysql控制面板中，导入运行我提供的 wy.sql 文件
 
 2.在 myeclipse 创建数据链接，测试是否成功
 
@@ -37,3 +37,10 @@ Tomcat版本：Tomcat8.x
 4.配置我们的 Tomcat ，然后把项目添加到 Tomcat 中
 
 5.运行，输入 http://localhost:8080/WY Tomcat配置其他端口，修改8080便可
+
+ ![](https://github.com/1123GY/WY/blob/master/Image1.jpg)
+ 
+ # 模块介绍
+ 
+ ## 1.字数榜、推荐榜
+ 
