@@ -25,3 +25,15 @@ ORM框架：Hibernate
 JDK版本：jdk1.8
 
 Tomcat版本：Tomcat8.x
+
+## 2.开始项目
+
+1.在你的Mysql中，创建一个数据库名称为 wy 的数据库，并导入我提供的 .sql 文件
+
+2.在 myeclipse 创建数据链接，测试是否成功
+
+3.使用 myeclipse 导入项目，进入 src/hibernate.cfg.xml 修改 JDBC 配置文件,选择刚刚创建出来的数据库链接
+
+4.配置我们的 Tomcat ，然后把项目添加到 Tomcat 中
+
+5.运行，输入 http://localhost:8080/WY Tomcat配置其他端口，修改8080便可
