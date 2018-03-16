@@ -38,10 +38,42 @@ Tomcat版本：Tomcat8.x
 
 5.运行，输入 http://localhost:8080/WY Tomcat配置其他端口，修改8080便可
 
- ![](https://github.com/1123GY/WY/blob/master/Image1.jpg)
+ ![](https://github.com/1123GY/WY/blob/master/Image/Image1.jpg)
  
  # 模块介绍
  
  ## 1.字数榜、推荐榜
  
-test
+按照字数和推荐排行，用 Java 实现分页，每页显示 8 条数据。
+
+![](https://github.com/1123GY/WY/blob/master/Image/Image2.jpg)
+
+ ## 2.大神榜
+ 
+按照收录作者书籍数量排序，用 Java 实现分页，每页显示 8 条数据。
+
+![](https://github.com/1123GY/WY/blob/master/Image/Image3.jpg)
+
+ ## 3.书籍信息页
+ 
+显示书籍的具体信息，还有其章节目录。
+
+![](https://github.com/1123GY/WY/blob/master/Image/Image4.jpg)
+
+
+ ## 4.小说阅读
+ 
+显示书籍章节具体内容。
+
+![](https://github.com/1123GY/WY/blob/master/Image/Image5.jpg)
+
+
+ ## 5.作者信息
+ 
+显示作者的具体信息，及其所录入书籍。
+
+![](https://github.com/1123GY/WY/blob/master/Image/Image6.jpg)
+
+ ## 6.搜索功能
+ 
+ 按照所输入细信息进行搜索，显示全部符合书名和作者名的书籍列表
