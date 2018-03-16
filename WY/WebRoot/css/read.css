@@ -1,0 +1,280 @@
+/*
+
+    Author Email    : 2963386293@qq.com
+    Template Name   : Li JinJiang
+    
+    
+    *****************************************
+    
+    
+    - Fonts
+    - General CSS
+    - Header
+    - Search
+    - Border
+    - Responsive CSS
+    
+
+*/
+
+/* header */
+p {
+	margin: 0;
+}
+
+a {
+	color: #626262;
+	font-family: "STKaiti";
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.navbar {
+	height: 78.5px;
+	z-index: 1;
+}
+
+.navbar-brand {
+	margin-top: 12px;
+	margin-left: 15px;
+	width:376px;
+	color: #626262;
+	font-family: "STKaiti";
+	font-size: 25px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.col-md-12 {
+	padding: 0;
+}
+
+.nav {
+	float: right;
+	opacity: 1;
+}
+
+.search {
+	padding-top: 13px;
+}
+
+.nav ul {
+	margin-top: 23px;
+	list-style: none;
+	overflow: hidden;
+	float: left;
+}
+
+.nav ul li {
+	float: left;
+	margin-left: 15px;
+}
+
+.nav ul li a,header nav .login_btn {
+	color: #626262;
+	font-family: "STKaiti";
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.nav .login_btn {
+	color: #626262;
+	font-family: "STKaiti", "华文楷体";
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.nav .login_btn {
+	float: right;
+	margin: 10px 0 0 20px;
+	padding: 13px 20px 11px 20px;
+	border: 2px solid #626262;
+	background: transparent;
+	transition: background .1s linear;
+	-webkit-transition: background .1s linear;
+	-moz-transition: background .1s linear;
+	-o-transition: background .1s linear;
+}
+
+.nav .login_btn:hover {
+	background: #ff6666;
+	color: #1c3655;
+}
+
+/*Main  */
+.container2 {
+	/* width: 1349px; */
+	background: #F0F0F0;
+}
+
+.read-main-wrap.font-family01 {
+	font-family: 'Microsoft YaHei', PingFangSC-Regular, HelveticaNeue-Light,
+		'Helvetica Neue Light', sans-serif;
+}
+
+.read-main-wrap {
+	background: #E0E0E0;
+	font-family: PingFangSC-Regular, HelveticaNeue-Light,
+		'Helvetica Neue Light', 'Microsoft YaHei', sans-serif;
+	font-size: 18px;
+	position: relative;
+	z-index: 1;
+	width: 900px;
+	margin: 0 auto
+}
+
+.main-text-wrap {
+	padding: 0 64px 30px 64px;
+}
+
+.main-text-wrap .text-head {
+	position: relative;
+	z-index: 5;
+	margin-bottom: 20px
+}
+
+.chapter-control {
+	height: 70px;
+	margin-bottom: 24px;
+	text-align: center;
+	border: 1px solid #d8d8d8;
+	background: url(/qd/images/read.qidian.com/basic_bg.edf95.png) repeat
+}
+
+.chapter-control a {
+	font: 18px/70px PingFangSC-Regular, HelveticaNeue-Light,
+		'Helvetica Neue Light', 'Microsoft YaHei', sans-serif;
+	width: 33.2%
+}
+
+.chapter-control a:hover {
+	color: #1a1a1a;
+	background:#4F4F4F;
+	background: rgba(0, 0, 0, .4)
+}
+
+.chapter-control a.disabled {
+	cursor: default;
+	color: #ccc;
+	background: 0 0
+}
+
+.chapter-control .w-all {
+	width: 100%
+}
+
+.chapter-control span {
+	height: 32px;
+	border-right: 1px solid #d8d8d8
+}
+
+.dib-wrap {
+	font-size: 0
+}
+
+.dib-wrap a,.dib-wrap span {
+	display: inline-block;
+	vertical-align: middle;
+	letter-spacing: normal;
+	word-spacing: normal
+}
+.menu_top{
+	margin-top:20px;
+}
+
+
+
+/*  footer  */
+footer {
+	padding-top: 40px;
+	/* background: #95badf; */
+	background: rgba(28, 54, 85, .5);
+}
+
+footer .footer>ul {
+	overflow: hidden;
+	padding-left: 100px;
+}
+
+footer .footer>ul>li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin-right: 60px;
+}
+
+footer .footer>ul>li:last-child {
+	margin-right: 0;
+}
+
+footer .footer>ul>li.links {
+	width: 300px;
+}
+
+footer ul li.links>ul>li {
+	display: block;
+	width: 100%;
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+footer ul li.links>ul>li:last-child {
+	margin-bottom: 0;
+}
+
+footer .footer>ul>li.links li a {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	font-family: "STKaiti", "华文楷体";
+	font-size: 20px;
+	letter-spacing: .5px;
+	text-align: left;
+}
+
+footer .footer>ul>li.about {
+	width: 310px;
+}
+
+footer ul li.about p {
+	color: #fff;
+	font-family: "STKaiti", "华文楷体";
+	font-size: 18px;
+	letter-spacing: .5px;
+	line-height: 51px;
+	margin-top: -12px;
+}
+
+footer ul li.about>ul>li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 300px;
+}
+
+footer ul li.about>ul>li:last-child {
+	margin-right: 0;
+}
+
+footer .copyrights {
+	display: block;
+	text-align: center;
+	padding: 20px 0 0 0;
+	margin-top: 30px;
+	color: #fff;
+	font-family: "lato-regular", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	letter-spacing: .5px;
+	border-top: 1px solid #82abd4;
+}
+
+footer .copyrights a.ph_link {
+	font-family: "lato-bold", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}

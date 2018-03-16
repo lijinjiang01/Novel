@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="default" extends="struts-default" >
+		<!-- 用户登录 -->
+		<action name="XS" class="org.action.XSAction">
+			<result name="success">/xs.jsp</result>
+			<result name="error">/404.html</result>
+		</action>
+		
+		<action name="TJ" class="org.action.TJAction">
+			<result name="success">/xs.jsp</result>
+			<result name="error">/404.html</result>
+		</action>
+		
+		<action name="Au" class="org.action.AuAction">
+			<result name="success">/xs.jsp</result>
+			<result name="error">/404.html</result>
+		</action>				
+		
+		<action name="One" class="org.action.OneAction">
+			<result name="success">/info.jsp</result>
+			<result name="error">/404.html</result>
+		</action>
+		
+		<action name="Per" class="org.action.PerAction">
+			<result name="success">/author.jsp</result>
+			<result name="error">/404.html</result>
+		</action>
+		
+		<action name="Index" class="org.action.IndexAction">
+			<result name="success">/index.jsp</result>
+			<result name="error">/404.html</result>
+		</action>
+		
+		<action name="Read" class="org.action.ReadAction">
+			<result name="success">/read.jsp</result>
+			<result name="error">/404.html</result>
+		</action>	
+		
+		<action name="Search" class="org.action.SearchAction">
+			<result name="success">/search.jsp</result>
+			<result name="error">/404.html</result>
+		</action>
+				
+	</package>
+</struts>

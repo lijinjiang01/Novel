@@ -1,0 +1,368 @@
+/* header */
+p{
+	margin:0;
+}
+a{
+	color: #626262;
+    font-family: "STKaiti";
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.navbar{
+	height:78.5px;
+	z-index:1;
+}
+.navbar-brand{
+	margin-top:12px;
+	margin-left:15px;
+	color: #626262;
+    font-family: "STKaiti";
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-decoration: none;
+	
+}
+.nav{
+    float: right;
+    opacity: 1;
+}
+.search{
+	padding-top: 13px;
+}
+.nav ul{
+    margin-top: 23px;
+    list-style: none;
+    overflow: hidden;
+    float: left;
+}
+.nav ul li{
+    float: left;
+    margin-left: 15px;
+}
+.nav ul li a, header nav .login_btn {
+    color: #626262;
+    font-family: "STKaiti";
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.nav .login_btn{
+    color: #626262;
+    font-family: "STKaiti","华文楷体";
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.nav .login_btn{
+    float: right;
+    margin: 10px 0 0 20px;
+    padding: 13px 20px 11px 20px;
+    border: 2px solid #626262;
+    background: transparent;
+
+    transition: background .1s linear;
+    -webkit-transition: background .1s linear;
+    -moz-transition: background .1s linear;
+    -o-transition: background .1s linear;
+}
+.nav .login_btn:hover{
+    background: #ff6666;
+    color: #1c3655;
+}
+
+
+/* main */
+.main {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.w-224 {
+    width: 224px;
+}
+.fl {
+    float: left;
+}
+.author-info {
+    background-color: #eee;
+    min-height: 420px;
+}
+
+.usr-avatar {
+    padding: 30px 20px 16px;
+}
+.usr-avatar img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 112px;
+    border: 2px solid #eee;
+}
+.author-info p.author-dtl {
+    padding-left: 24px;
+}
+.author-info p.author-dtl span {
+	padding: 20px 0 15px 32px;
+    display: block;
+}
+
+
+
+.w-746 {
+    width: 746px;
+}
+
+.fr {
+    float: right;
+}
+.bdrbox {
+    border: 1px solid #e6e6e6;
+} 
+.sch-res-top {
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 12px;
+    border-top: 2px solid #48a2e0;
+    padding: 0 20px;
+    height: 38px;
+    line-height: 38px;
+}
+.rank-body li {
+    width: 100%;
+    height: 220px;
+    margin-bottom: 5px;
+    padding: 6px 0 30px 6px;
+    list-style: none;
+    border: 1px solid #eaeaea;
+    background: rgba(255,255,255,0.5);
+}
+.rank-tag {
+    font: 16px/22px FZZCYSK;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    min-width: 22px;
+    height: 22px;
+    padding: 0 4px;
+    text-align: center;
+    color: #fff;
+    /* background: #000; */
+    background: #bf2c24;
+   /*  background: rgba(0,0,0,.6); */
+}
+span.rank-tag cite {
+    position: absolute;
+    z-index: 2;
+    top: 100%;
+    left: 0;
+    display:block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid #bf2c24;
+    border-right: 11px solid transparent;
+    border-bottom: 0 none;
+    border-left: 11px solid transparent;
+}
+.book-img-box {
+    position: relative;
+    z-index: 3;
+    float: left;
+    width: 160px;
+    /* height: 196px; */
+    margin-top: 4px;
+    margin-right: 20px;
+    border: 8px solid #ffffff;
+    overflow: hidden;
+}
+.book-img-box img {
+    width: 100%;
+}
+.book-img{
+	/* height:130px; */
+	transition:all 1s;
+}
+.book-img:hover{
+	transform:scale(1.1);
+}
+.book-mid-info {
+    float: left;
+    width: 420px;
+    height: 150px;
+    padding-top: 10px;
+}
+.book-mid-info a{
+	color: #626262;
+    font-family: "STKaiti","华文楷体";
+    font-size: 18px; 
+    font-weight:bold;
+    letter-spacing: 1px; 
+    text-decoration: none;
+}
+.author{
+	color: #626262;
+    font-family: "STKaiti","华文楷体";
+    font-size: 1.3em; 
+    letter-spacing: 1px; 
+    text-decoration: none;
+	width:470;
+}
+.intro{
+	height:111px;
+	color: #626262;
+    font-family: "STKaiti","华文楷体";
+    letter-spacing: 1px; 
+    font-size: 1.3em; 
+    line-height: 28px;    
+    text-decoration: none;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.time{
+	color: #626262;
+    font-family: "STKaiti","华文楷体";
+    letter-spacing: 1px; 
+    font-size: 1.3em; 
+    text-decoration: none;
+}
+.book-right-info
+{
+	float: right;
+    width: 138px;
+    height: 150px;
+    padding-top: 10px;
+}
+.total p{
+	float:left;
+	margin-bottom: 10px;
+	font-family: "STKaiti","华文楷体";
+	color:#626262;
+    letter-spacing: 1px; 
+    font-size: 1.3em; 
+    text-decoration: none;
+    font-weight:600;
+    padding:0 0 28.2px 0;
+}
+
+.book-right-info .red-btn{
+	float: left;
+    text-decoration: none;
+    color: #fff;
+    font-family: "STKaiti","华文楷体";
+    font-size: 21px;
+    letter-spacing: 1px;
+
+}
+.book-right-info .red-btn{
+    margin: 1px 0 0 0;
+    padding: 11px 15px 11px 15px;
+    border: 3px solid #fff;
+    background: #cc0000;
+
+    transition: background .1s linear;
+    -webkit-transition: background .1s linear;
+    -moz-transition: background .1s linear;
+    -o-transition: background .1s linear;
+}
+
+.book-right-info .red-btn:hover{
+    background: #ff6666;
+    color: #fff;
+}
+
+
+
+/*  footer  */
+footer{
+    padding-top: 40px;
+    /* background: #95badf; */
+    background: rgba(28, 54, 85, .5);
+}
+
+footer .footer > ul{
+    overflow: hidden;
+    padding-left:100px;
+}
+
+footer .footer > ul > li{
+    display: block;
+    float: left;
+    list-style: none;
+    margin-right: 60px;
+}
+
+footer .footer > ul > li:last-child{
+    margin-right: 0;
+}
+
+
+footer .footer > ul > li.links{
+    width: 300px;
+}
+
+footer ul li.links > ul > li{
+    display: block;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+footer ul li.links > ul > li:last-child{
+    margin-bottom: 0;
+}
+
+footer .footer > ul > li.links li a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-family: "STKaiti","华文楷体";
+    font-size: 20px;
+    letter-spacing: .5px;
+    text-align: left;
+}
+
+footer .footer > ul > li.about{
+    width: 310px;
+}
+
+footer ul li.about p{
+    color: #fff;
+    font-family: "STKaiti","华文楷体";
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 51px;
+    margin-top: -12px;
+}
+
+footer ul li.about > ul > li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 300px;
+}
+
+footer ul li.about > ul > li:last-child{
+    margin-right: 0;
+}
+
+
+
+footer .copyrights{
+    display: block;
+    text-align: center;
+    padding: 20px 0 0 0;
+    margin-top: 30px;
+    color: #fff;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: .5px;
+    border-top: 1px solid #82abd4;
+}
+
+footer .copyrights a.ph_link{
+    font-family: "lato-bold", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}

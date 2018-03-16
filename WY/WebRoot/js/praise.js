@@ -1,0 +1,24 @@
+$(document).ready(function(){
+  /*$(".red-btn").click(function(){
+  $(this).hide();
+  var txt = this.innerHTML;
+  if(txt=='Í¶Æ±ÍÆ¼ö'){
+	  $(this).css("background-color","black");
+  }
+  else{
+	  $(this).css("background-color","blue");
+  }
+  });*/
+  $("#login-btn").click(function(){
+	  $("#signin").show();
+	  $("#backg").show();
+  });
+  $("#login_btn2").click(function(){
+	  $("#signin").hide();
+	  $("#backg").hide();
+  });
+  $("#cancel-btn").click(function(){
+	  $("#signin").hide();
+	  $("#backg").hide();
+  });
+});
